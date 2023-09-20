@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+*{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+#card{
+    background-color: rgb(237, 237, 237);
+    height: fit-content;
+    width: 28vw;
+    box-shadow: 1px 5px 10px 1px lightgray;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+}
+#card img{
+    width: 100%;  
+    height: 30%;
+}
+#card h1{
+    margin: 0px;
+}
+#card p{
+    margin: 0px;
+}
+#card button{
+    color: white;
+    background-color: rgb(250, 71, 71);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
